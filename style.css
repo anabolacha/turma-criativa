@@ -1,4 +1,9 @@
-.cabeçalho{
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .cabeçalho{
     background-color:rgb(168, 94, 165);
 color: rgb(255, 255, 255);
 display: flex;
@@ -6,8 +11,14 @@ justify-content: space-around;
 align-items: center;
 padding: 24px;
 }
-  
- 
+.cabeçalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+.cabeçalho-imagem{
+width: 20%;    
+}
 
     
 
