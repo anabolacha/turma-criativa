@@ -23,12 +23,60 @@ width: 10px;
     width: 10%;
 }
 .Escola {
-    background-image:linear-gradient(rgb(110, 25, 143),#dddddd);
+    background-image:linear-gradient(rgb(110, 25, 143),#ffffff);
 color: rgb(0, 0, 0);
 display: flex;
 justify-content: center;
 align-items: center;
 padding: 24px 0;
 }
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
-    
+.escola-div-conteudo{
+    width: 35%;
+}
+
+
+.escola-titulo{
+    padding: 24px 0;
+}
+
+.estudante{
+    padding: 24px 0;
+}
+.estudante-imagem{
+    width: 200px;
+}
+
+.estudante-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.estudante-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+   
+}  
